@@ -5,9 +5,9 @@ def divide_or_square(num):
     sqrt = num ** 0.5
 
     if reminder == 0:
-        return round(sqrt, 2)
+        return f'The square-root of {num} if {round(sqrt, 2)}'
     else:
-        return reminder
+        return f'The reminder of {num} divide by 5 is {reminder}'
     
     
 print(divide_or_square(11))
