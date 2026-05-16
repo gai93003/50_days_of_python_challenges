@@ -12,3 +12,4 @@ def zeros_last(arr):
         return nums + zeros
 
 print(zeros_last([1, 4, 6, 7, 9, 0, 0]))
+print(zeros_last([2, 1, 4, 7, 6]))
