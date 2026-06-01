@@ -7,10 +7,10 @@
 # Once added your code should return to the user "Hi, (added name), you are (added age) years old". Remember to convert the input from user to lowercase letters
 
 names_age = {
-  "jane": 23,
-  "kerry": 45,
-  "tim": 34,
-  "peter": 27
+    "jane": 23,
+    "kerry": 45,
+    "tim": 34,
+    "peter": 27
 }
 
 def your_age():
