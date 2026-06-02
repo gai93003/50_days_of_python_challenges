@@ -4,7 +4,6 @@ from user_name import user_name
 def test_user_name_generator(monkeypatch):
     # Mock the user input to return "Gabriel"
     monkeypatch.setattr('builtins.input', lambda _: "Gabriel")
-
     monkeypatch.setattr(random, 'randint', lambda a, b: 7)
 
     result = user_name()
